@@ -1,0 +1,148 @@
+body{
+
+	padding: 0;
+	margin: 0;
+	font-family: "poppins",sans-serif;
+	background-color:salmon;
+	
+	
+}
+
+.main{
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+}
+
+.main .left{
+	flex: 1;
+	display: flex;
+
+	/*align-items: center;
+	align-content: center;*/
+	flex-direction: column;
+}
+
+.main .right{
+	flex: 1;
+	display: flex;
+	/*align-items: center;
+	align-content: center;*/
+	flex-direction: column;
+	
+}
+
+.main .right .card {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	gap: 20px;
+	box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+
+}
+
+.main .right .card .title{
+	/*box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.09);
+        box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.09);
+        box-shadow: 0px 0px 15px 1px salmon;*/
+
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        background:#salmon;
+	
+	display: flex;
+/*	width: 100%;*/
+
+	justify-content: center;
+	
+}
+.main .right .card .title span{
+	display: flex;
+	font-size: 14px;
+	color: white;
+	padding:10px 123px;
+	align-items: center;
+	background-color: darkblue;
+	border-radius: 4px;
+}
+
+
+.main .right .card form{
+	display: flex;
+	
+	justify-content: center;
+	flex-direction: column;
+	padding: 30px 20px;
+	gap: 10px;
+	border-radius: 4px;
+	background-color: white;
+
+}
+
+
+.main .right .card form input{
+	display: flex;
+	border-radius: 4px;
+	font-size: 12px;
+	border:1px solid lightgrey;
+	padding: 10px 10px;
+}
+
+
+.main .right .card form button{
+	display: flex;
+	justify-content: center;
+	border: none;
+	border-radius: 4px;
+	padding: 10px;
+	background-color: #3cb371;
+	color: white;
+	font-size: 10px;
+
+}
+
+
+.main .right .card form p {
+	display: flex;
+	font-size: 15px;
+	color: lightgrey;
+	padding: 0 10px;
+
+}
+
+
+.main .left .card{
+	display: flex;
+	padding: 30px;
+	align-items: center;
+	justify-content: center;
+	gap: 1px;
+	flex-direction: column;
+
+
+}
+
+.main .left .card span{
+	display: flex;
+	font-size: 40px;
+	margin-left: 0px;
+	font-weight: 500;
+	color: white;
+}
+
+.main .left .card p{
+	margin-left: 10px;
+	display: flex;
+	font-size: 13px;
+	color: white;
+	padding: 10px 110px;
+
+
+
+
+}
+
+
+
+
